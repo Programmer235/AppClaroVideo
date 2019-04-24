@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_movie_section"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".movieSection.view.MovieSectionActivity">
+
+    <EditText
+        android:id="@+id/search_movie"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_movie_height"
+        android:layout_marginStart="@dimen/common_margin_8"
+        android:layout_marginLeft="@dimen/common_margin_8"
+        android:layout_marginTop="@dimen/common_margin_8"
+        android:layout_marginEnd="@dimen/common_margin_8"
+        android:layout_marginRight="@dimen/common_margin_8"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWithe"
+        android:hint="@string/hint_search_txt"
+        android:textColorHint="@color/colorGray"
+        android:padding="@dimen/common_padding_4"
+        android:drawableRight="@drawable/ic_search_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_secction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/common_margin_8"
+        android:layout_marginLeft="@dimen/common_margin_8"
+        android:layout_marginTop="@dimen/common_margin_8"
+        android:layout_marginEnd="@dimen/common_margin_8"
+        android:layout_marginRight="@dimen/common_margin_8"
+        android:text="@string/title_seccion_txt"
+        android:textColor="@color/colorWithe"
+        android:textSize="@dimen/item_title_txt_size_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_movie" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_movie"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/common_margin_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_secction"
+        tools:listitem="@layout/item_seccion_movie" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    //COMMON DIMEN
+
+    //Padding
+    <dimen name="common_padding_4">4dp</dimen>
+    <dimen name="common_padding_10">10dp</dimen>
+    <dimen name="common_padding_5">5dp</dimen>
+
+    //Margin
+    <dimen name="common_margin_4">4dp</dimen>
+    <dimen name="common_margin_8">8dp</dimen>
+    <dimen name="common_margin_16dp">16dp</dimen>
+    <dimen name="common_margin_24">24dp</dimen>
+
+    //Gide
+    <dimen name="common_begin_20">20dp</dimen>
+    <item name="common_begin_04" type="dimen" format="float">0.4</item>
+
+    //Text_size
+    <dimen name="item_title_txt_size_14">14dp</dimen>
+    <dimen name="item_title_txt_size_15">15dp</dimen>
+    <dimen name="item_title_txt_size_18">18dp</dimen>
+    <dimen name="item_title_txt_size_20">20dp</dimen>
+
+    //FRAGMENT_MOVIE_INFO
+    <dimen name="img_movie_info_width">150dp</dimen>
+    <dimen name="img_movie_info_height">250dp</dimen>
+    <dimen name="img_movie_width">200dp</dimen>
+    <dimen name="img_movie_height">300dp</dimen>
+    <dimen name="btn_back_size">30dp</dimen>
+
+    //ACTIVITY_MOVIE_SECTION
+    <dimen name="search_movie_height">40dp</dimen>
+    <dimen name="item_img_movie_height">180dp</dimen>
+
+    //ITEM_SECCION_MOVIE
+    <dimen name="content_item_height">180dp</dimen>
+
+</resources>

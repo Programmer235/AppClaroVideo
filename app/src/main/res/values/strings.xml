@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppClaroVideo</string>
+
+    //ACTIVITY_MOVIE_SECTION
+    <string name="hint_search_txt">Buscar</string>
+    <string name="title_seccion_txt">Ciencia Ficción</string>
+
+    //FRAGMENT_MOVIE_INFO
+    <string name="title_back">Regresar</string>
+</resources>
