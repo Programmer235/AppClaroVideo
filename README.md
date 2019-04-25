@@ -10,7 +10,7 @@ La segunda vista muestra la información  de la película que fue seleccionada p
 
 
 ## Estructura de proyecto
- La estructura del proyecto esta basada en el patron de diseño  MVVM (Modelo-Vista-Modelo de vista) y la librería Retrofit.   
+ La estructura del proyecto esta basada en la arquitectura Jetpak y la librería Retrofit.   
 
 # Librerias
 
